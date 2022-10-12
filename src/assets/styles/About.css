@@ -17,6 +17,11 @@
 
 .about .left p{
     margin: 1.2rem 0;
+    color: #000;
+}
+
+.left-h1{
+    color: #000;
 }
 
 .about .right{
