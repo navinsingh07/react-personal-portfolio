@@ -1,7 +1,7 @@
 .pricing{
     width: 100%;
     padding: 6rem 1rem;
-    background: #000;
+    background: #fff;
 }
 
 .card-container{
@@ -13,27 +13,29 @@
 }
 
 .card{
-    border: 1px solid #eee;
+    border: 2px solid #000;
     color: #eee;
     text-align: center;
     padding: 1rem;
 }
 
 .card:hover{
-    background-color: #141414;
+    background-color: #eee;
 }
 
 .card h3{
     font-size: 1.4rem;
     padding: 1rem;
+    color: #000;
 }
 
 .card p{
     padding: 10px 0;
+    color: #000;
 }
 
 .bar{
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #000;
     width: 10%;
     margin: 1.5rem auto;
     display: block;
