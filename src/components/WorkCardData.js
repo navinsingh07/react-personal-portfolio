@@ -12,10 +12,17 @@ const ProjectCardData = [
 
     {
         imgsrc: project2,
+        title: "Visa Web Application",
+        text: " Fully Responsive Visa Web Application Made Using React.js. Third party integration like swiper js,  Material UI for some features ",
+        view: "#"
+    },
+
+    {
+        imgsrc: project2,
         title: "Personal Portfolio - REACT",
         text: "Personal Portfolio made using React. This is an Static Website. We Used Dynamic Components in it. This is an fully responsive website. ",
         view: "#"
-    }
+    },
 ]
 
 export default ProjectCardData;

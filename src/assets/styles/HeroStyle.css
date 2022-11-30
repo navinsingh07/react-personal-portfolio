@@ -19,7 +19,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #000;
     opacity: 0.8;
 }
 
@@ -36,32 +35,37 @@
     text-align: center;
 }
 
-.hero .content h1{
-    font-size: 4rem;
+.hero .content span{
+    font-size: 3.5rem;
     padding: 0.6rem 0 1.5rem;
+    color: #000;
 }
 
 .hero .content p{
     font-size: 1.4rem;
     font-weight: 200;
     text-transform: uppercase;
+    color: #000;
 }
 
 .content .btn{
     margin: 1rem 0.2rem;
 }
 
-
+.heroBtn{
+    padding: 20px;
+}
 
 
 @media screen and (max-width:640px) {
-    .hero .content h1{
-        font-size: 3rem;
+    .hero .content span{
+        font-size: 2rem;
+        padding: 0.6rem 0 1.5rem;
+        color: #000;
     }
 
     .hero .content p{
         font-size: 1.4rem;
     }
-
 
 }

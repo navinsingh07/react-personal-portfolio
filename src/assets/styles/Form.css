@@ -19,3 +19,7 @@ form input, form textarea{
     border-color: #000;
     color: #000;
 }
+
+form h2{
+    padding: 20px 0;
+}

@@ -7,6 +7,7 @@ const Form = () => {
     <>
         <div className="form">
             <form>
+            <h2>Contact Me</h2>
                 <label>Your Name</label>
                 <input type="text"></input>
                 <label>Email</label>

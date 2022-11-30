@@ -7,14 +7,20 @@
     max-width: 1140px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem ;
 }
 
 .project-card{
-    background: #1a1919;
+    background: #fff;
     padding: 1.2rem 1rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.project-card h2{
+    color: #000;
 }
 
 .project-card img{
@@ -54,5 +60,6 @@
         max-height: 90%;
         margin: auto;
         grid-template-columns: 1fr;
+        padding: 0 20px;
     }
 }

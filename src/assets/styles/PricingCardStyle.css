@@ -4,6 +4,11 @@
     background: #fff;
 }
 
+.pricing h1{
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
 .card-container{
     max-width: 1140px;
     margin: auto;

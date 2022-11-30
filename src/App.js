@@ -5,7 +5,6 @@ import Home from "./routes/Home";
 import Project from "./routes/Project";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
-
 function App() {
   return (
     <>
