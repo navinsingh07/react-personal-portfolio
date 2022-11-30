@@ -55,6 +55,11 @@
     z-index: 5;
 }
 
+@media screen and (max-width:840px) {
+    .about .left{
+        padding-bottom: 20px;
+    }
+}
 
 
 
