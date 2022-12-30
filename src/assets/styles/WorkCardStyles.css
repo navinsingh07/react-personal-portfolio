@@ -1,6 +1,7 @@
 .project-heading{
     text-align: center;
     padding: 4rem 0 2rem 0;
+    color: #8892b0;
 }
 
 .project-container{
@@ -13,14 +14,14 @@
 }
 
 .project-card{
-    background: #fff;
+    background: #233554;
     padding: 1.2rem 1rem;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     border-radius: 10px;
 }
 
 .project-card h2{
-    color: #000;
+    color: #8892b0;
 }
 
 .project-card img{
@@ -28,7 +29,7 @@
 }
 
 .project-title{
-    color: #fff;
+    color: #8892b0;
     padding: 1rem 0;
 }
 
@@ -50,6 +51,7 @@
 
 .pro-detials p{
     padding-bottom: 2rem;
+    color: #8892b0;
 }
 
 

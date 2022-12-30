@@ -1,9 +1,7 @@
 .footer{
     width: 100%;
     padding: 2rem 0;
-    background-color: #fff;
     margin: 0 auto;
-    border-top: 1px solid #000;
 }
 
 .footer p{
@@ -12,7 +10,7 @@
 
 
 h4,p{
-    color: #000;
+    color: #8892b0;
 }
 
 .footer-container{

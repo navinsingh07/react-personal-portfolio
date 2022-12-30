@@ -3,13 +3,13 @@ import Typed from 'react-typed';
 
 import React from 'react'
 import { Link } from 'react-router-dom';
-import HeroImg from '../assets/images/HP2.jpg'
+// import HeroImg from '../assets/images/HP2.jpg'
 
 const HeroImage = () => {
   return (
     <div className='hero'>
         <div className="mask">
-          <img className='into-img' src={HeroImg} alt="img" />
+          {/* <img className='into-img' src={HeroImg} alt="img" /> */}
         </div>
         <div className="content">
         <p>Hi, I'M Navin 😃</p>

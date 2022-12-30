@@ -9,7 +9,7 @@
 }
 
 body{
-  background: #fff;
+  background: #0a192f;
 }
 
 h1,h4,p,a{
@@ -35,9 +35,9 @@ ul{
 .btn-light{
   padding: 12px 32px;
   text-transform: uppercase;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   background: transparent;
-  color: #000;
+  color: #fff;
 }
 
 .btn:hover{

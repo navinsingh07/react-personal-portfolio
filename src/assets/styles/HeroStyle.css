@@ -38,14 +38,14 @@
 .hero .content span{
     font-size: 3.5rem;
     padding: 0.6rem 0 1.5rem;
-    color: #000;
+    color: #8892b0;
 }
 
 .hero .content p{
     font-size: 1.4rem;
     font-weight: 200;
     text-transform: uppercase;
-    color: #000;
+    color: #8892b0;
 }
 
 .content .btn{
@@ -61,7 +61,7 @@
     .hero .content span{
         font-size: 2rem;
         padding: 0.6rem 0 1.5rem;
-        color: #000;
+        color: #8892b0;
     }
 
     .hero .content p{
