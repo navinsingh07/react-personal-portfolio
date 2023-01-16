@@ -30,6 +30,7 @@ ul{
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
+  transition: transform 0.3s;
 }
 
 .btn-light{
@@ -42,7 +43,7 @@ ul{
 
 .btn:hover{
   color: #000;
-  transition: 0.3s; 
+  transform: translateY(-10px);
 }
 
 .btn-light:hover{

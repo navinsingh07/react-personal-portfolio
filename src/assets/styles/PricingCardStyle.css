@@ -28,10 +28,12 @@
     color: #eee;
     text-align: center;
     padding: 1rem;
+    opacity: 0.7;
 }
 
 .card:hover{
-    background-color: #495670;
+    /* background-color: #495674; */
+    opacity: 0.9;
 }
 
 

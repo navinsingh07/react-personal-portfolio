@@ -1,0 +1,45 @@
+.main-skill-div{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 80px 0;
+}
+
+
+.skilss_head{
+    text-align: center;
+    color: #8892b0;
+    padding: 80px 0;
+}
+
+.skill-Logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.skill-Logo{
+    display: grid;
+    row-gap: 50px;
+    column-gap: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1040px) {
+
+    .skill-Logo img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .skill-Logo{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-skill-div{
+        padding: 20px 0 40px 0;
+    }
+
+}

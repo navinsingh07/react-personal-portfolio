@@ -1,5 +1,6 @@
 import project1 from '../assets/images/crudapp.jpg'
 import project2 from '../assets/images/portfolioReact.jpg'
+import project3 from '../assets/visaPro.png'
 
 
 const ProjectCardData = [
@@ -11,7 +12,7 @@ const ProjectCardData = [
     },
 
     {
-        imgsrc: project2,
+        imgsrc: project3,
         title: "Visa Web Application",
         text: " Fully Responsive Visa Web Application Made Using React.js. Third party integration like swiper js,  Material UI for some features ",
         view: "#"

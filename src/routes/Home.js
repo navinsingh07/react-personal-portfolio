@@ -8,6 +8,7 @@ import PricingCard from '../components/PricingCard';
 import AboutContent from '../components/AboutContent';
 import Form from '../components/Form';
 import AboutMe from "../components/AboutMe";
+import Skills from "../components/Skills";
 const Home = () => {
     return(
         <>
@@ -15,6 +16,7 @@ const Home = () => {
             <HeroImage />
             {/* <FramerEx1 /> */}
             <AboutMe />
+            <Skills />
             <Work />
             <PricingCard />
             <AboutContent />

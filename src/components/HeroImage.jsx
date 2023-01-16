@@ -1,32 +1,31 @@
 import '../assets/styles/HeroStyle.css'
 import Typed from 'react-typed';
-
 import React from 'react'
-import { Link } from 'react-router-dom';
-// import HeroImg from '../assets/images/HP2.jpg'
 
 const HeroImage = () => {
   return (
     <div className='hero'>
-        <div className="mask">
-          {/* <img className='into-img' src={HeroImg} alt="img" /> */}
-        </div>
-        <div className="content">
-        <p>Hi, I'M Navin 😃</p>
-        <Typed
-                strings={[
-                    'React Developer',
+
+      <div className="main">
+        <div className="leftSection">
+          <p>Hello!</p>
+          <p>Welcome to My Portfolio</p>
+          <Typed className='typed'
+                    strings={[
                     'Frontend Developer',
+                    'React.js Developer',
                     'Web Developer',
                     ]}
-                    typeSpeed={80}
-                    backSpeed={80}
-                    loop ></Typed>
-            <div className='heroBtn'>
-                <Link to='/project' className='btn'>Project</Link>
-                <Link to='/contact' className='btn-light'>Contact</Link>
-            </div>
+                    typeSpeed={40}
+                    loop
+                />
         </div>
+        <div className="rightSection">
+         
+        </div>
+      </div>
+
+      
     </div>
   )
 }
